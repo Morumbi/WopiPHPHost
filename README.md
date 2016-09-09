@@ -18,7 +18,7 @@ WopiPHPHost is a PHP scripts for work with Office Online Server (Office Web Apps
         RewriteCond %{REQUEST_URI} ^/wopi/files/(.*)$ [OR]
         RewriteCond %{REQUEST_URI} ^/WOPI/FILES/(.*)$
         RewriteRule ^(.*)$ /wopi/index.php [L]
-    </IfModule mod_rewrite.c>
+    </IfModule>
     ```
 3. Run http://yourWebServer/wopi/index.php to generate test link.
     First link - test caml to OOS,
